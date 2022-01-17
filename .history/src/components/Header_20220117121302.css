@@ -1,0 +1,28 @@
+.header{
+    color: white;
+    height: 6 rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header > div {
+    margin: 0.625;
+}
+
+.logoContainer{
+
+}
+
+.punkLogo {
+    width: 12rem;
+}
+
+.searchBar {
+    background-color: #1c1c1e;
+    height: 3.125rem;
+    flex: 1;
+    display: flex;
+    border-radius: 3.125rem;
+    align-items: center;
+}

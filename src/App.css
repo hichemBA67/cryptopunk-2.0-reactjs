@@ -1,0 +1,7 @@
+.app {
+  background: rgb(99,1,1);
+  background: linear-gradient(0deg, rgba(99,1,1,1) 0%, rgba(0,0,0,1) 100%);
+  padding: 1.25rem;
+  min-height: 100vh;
+  max-width: 100vw;
+}
