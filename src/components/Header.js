@@ -1,5 +1,4 @@
 import "./Header.css";
-import punkLogo from "../assets/header/cryptopunk-logo.png";
 import kendrickLogo from "../assets/header/kendrick-logo.png";
 import searchIcon from "../assets/header/search.png";
 import themeSwitchIcon from "../assets/header/theme-switch.png";
@@ -8,7 +7,6 @@ const Header = () => {
   return (
     <div className="header">
       <div className="logoContainer">
-        {/* <img src={punkLogo} className="punkLogo" alt="" /> */}
         <img src={kendrickLogo} className="kendrickLogo" alt="" />
       </div>
 
