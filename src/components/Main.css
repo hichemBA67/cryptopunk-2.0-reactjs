@@ -1,0 +1,100 @@
+.main {
+    max-height: 50vh;
+}
+
+.mainContent {
+    display: flex;
+    padding-bottom: 1.25rem;
+    border-bottom: 2px solid #fff;
+}
+
+.nftHighlight {
+    flex: 0.25;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nftContainer {
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    margin-right: 1.25rem;
+}
+
+.nftDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 0.75;
+}
+
+.selectedNft {
+    object-fit: contain;
+    height: 24rem;
+    width: 24rem;
+}
+
+.title {
+    font-size: 96px;
+    font-weight: 800;
+}
+
+.itemNumber {
+    color: #a1a5b0;
+    font-size: 72px;
+    align-self: center;
+    margin-left: 2rem;
+}
+
+.owner {
+    display: flex;
+    margin: 0.625rem 0;
+    height: 3.125rem;
+}
+
+.owner > div {
+    margin: 0 0.3125rem;
+}
+
+.ownerImageContainer {
+    height: 3.125rem;
+    width: 3.125rem;
+    border-radius: 3.125rem;
+    overflow: hidden;
+    object-fit: contain;
+}
+
+.ownerImageContainer > img {
+    height: 100%;
+    width: 100%;
+}
+
+.ownerDetails {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.ownerNameAndHandle {
+    color: white;
+    flex: 1;
+}
+
+.ownerHandle {
+    color: #00ebfe;
+}
+
+.ownerLink {
+    padding: 0.75rem;
+    border-radius: 3.125rem;
+    height: 3.125rem;
+    width: 3.125rem;
+    border: 2px solid #fff;
+    margin: 0 0 0 0.625rem;
+}
+
+.ownerLink > img {
+    height: 100%;
+    width: 100%;
+}

@@ -2,11 +2,11 @@ import React from "react";
 import "./NftList.css";
 import CollectionCard from "./CollectionCard";
 
-const NftList = ({ nftListData }) => {
+const NftList = ({ nftListData, setSelectedNft }) => {
   return (
     <div className="nftList">
       {nftListData.map((nft) => (
-        <div>
+        <div onClick={() => setSelectedNft(nft.token_id)}>
           <CollectionCard
             key={nft.token_id}
             id={nft.token_id}

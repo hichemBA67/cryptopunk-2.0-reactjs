@@ -4,9 +4,11 @@ import Header from "./components/Header";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import NftList from "./components/NftList";
+import Main from "./components/Main";
 
 function App() {
   const [nftListData, setNftListData] = useState([]);
+  const [selectedNft, setSelectedNft] = useState(0);
 
   useEffect(() => {
     const getMyNfts = async () => {
@@ -22,7 +24,12 @@ function App() {
   return (
     <div className="app">
       <Header />
-      <NftList nftListData={nftListData} />
+      {nftListData.length > 0 && (
+        <>
+          <Main nftListData={nftListData} selectedNft={selectedNft} />
+          <NftList nftListData={nftListData} setSelectedNft={setSelectedNft} />
+        </>
+      )}
     </div>
   );
 }
